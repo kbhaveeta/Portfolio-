@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function  call(){
+        //     document.write("function call");
+        //     call();
+        // }
+
+        // call();
+
+        //5 = 5*4*3*2*1
+    //     function factorial(n){
+    //         if(n==0 || n==1){
+    //             return 1
+    //         }
+    //         return n *factorial(n-1);
+
+    //     }
+    //    document.write(factorial(6));
+
+       function calculator(num1, num2, operator){
+
+        switch(operator){
+           case '+':
+            var result = num1+num2;
+            // document.write(result);
+            return result;
+            break;
+           case '-':
+             var result = num1-num2;
+            // document.write(result);
+            return result;
+        }
+       }
+    //    document.write(calculator(2, 2, '+'))
+    document.write(calculator(5, 2, '-'))
+    </script>
+</body>
+</html>
